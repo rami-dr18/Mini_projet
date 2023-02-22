@@ -1,0 +1,51 @@
+body{
+    background-image: url(../images/projects.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container{
+      background-color: #07031d6b;
+    padding-left: 14%;
+    font-size: 31px;
+    font-family: -webkit-body;
+    text-align: left;
+    margin: 5%;
+    display: block;
+    box-shadow: 10px 12px 10px 0px #5160cb94;
+}
+.titleofpage{
+    font-size: 40px;
+    padding: 2%;
+}
+.firstrow{
+   display: inline-block;
+}
+.button{
+            
+           padding: 1px 5px;
+            background:  #1a2ba680;
+             border-radius: 19px;
+            outline: none;
+            text-transform: uppercase;
+            border: 3px solid black;
+   }
+   .cont1{
+padding: 20px;
+margin: 3%;
+   }
+   .cont2{
+padding: 20px;
+margin: 3%;;
+   }
+   .cont3{
+padding: 20px;
+margin: 3%;;
+   }
+   a{
+       text-decoration: none;
+       color: white;
+   }
+   .button:hover{
+        background-color:#101088d2;
+        border: 4px  double whitesmoke;
+   }

@@ -1,0 +1,30 @@
+body{
+    background-image: url(../images/back-institut.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.pagetitle{
+    font-size: 31px;
+    color: #fc3737;
+}
+.container p{
+font-size: 20px;
+}
+.container h2{
+color: #04046a;
+}
+.container1 h1 {
+    color: #fc3737;
+}
+.container1 h2{
+    color: #ffbdbd;
+}
+.container1 p{
+    font-size: 20px;
+}
+.container1 address{
+    font-size:20px ;
+}
+.container1 blockquote{
+    font-size: 24px;
+}

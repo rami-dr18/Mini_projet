@@ -1,0 +1,121 @@
+body{
+    font-size: 14px;
+    background-color: white;
+    background-image: url(../images/contact.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container{
+
+    width: 80%;
+    margin: 50px auto;
+    
+}
+.contactbox{
+    display: flex;
+     box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3); 
+     margin-top: 3%;
+}
+.cotanctleft{
+flex-basis: 60%;
+padding: 40px 60px;
+ background: linear-gradient(to bottom right, #6600cc94 0%, #00009975 100%)
+}
+.cotanctright{
+flex-basis: 40%;
+padding: 40px 60px;
+background-color: #ffffff80;
+color: black;
+}
+.input-row{
+display: flex;
+justify-content: space-between;
+margin-bottom: 20px;
+}
+.input-row .input-group{
+flex-basis: 45%;
+}
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+    background-color: transparent;
+    
+}
+textarea{
+width: 100%;
+border: 1px solid black;
+outline: none;
+padding: 10px;
+box-sizing: border-box;
+background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #ccc;
+}
+label{
+    margin-bottom: 6px;
+    display: block;
+    color: #e0ebeb;
+    font-size: 15px;
+}
+
+button{
+    color: white;
+            padding: 15px 20px;
+            background: #e600ac;
+            border: none;
+            border-radius: 15px;
+            outline: none;
+            cursor: pointer;
+            text-transform: uppercase;
+            box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
+}
+
+.cotanctleft h3 {
+
+    color:white;
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.cotanctright h3 {
+    font-weight: 600;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+h2{
+    color:black;
+  text-shadow: 2px 2px 4px #000000;
+}
+h3{
+  color:black;
+  text-shadow: 2px 2px 4px #000000;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+        .button1{
+          
+            padding: 12px 20px;
+            background: #ffffff12;
+            border: 3px solid white;
+            border-radius: 25px;
+            outline: none;
+            cursor: pointer;
+            text-transform: uppercase;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        position: absolute;
+        top: 5%;
+        left: 92%;
+        }
+        .cotanctright a{
+            color: black;
+        }
+        .welcoming{
+            font-size: 20px;
+                color: rgb(14 19 182);
+    font-family: ui-monospace;
+        }
